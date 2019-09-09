@@ -6,7 +6,7 @@
 
 Parameters   |Type   | Description
 -------------|-------|----------------
-app*         |string | Name of the app
+app*         |string | Name of the Jira key for the project
 level        |number | Stack trace level
 
 ### Logger()
@@ -14,7 +14,7 @@ level        |number | Stack trace level
 ```js
 // Creates a logger instance
 new Logger({
-  app:'ccms',
+  app:'BACK',
   level:1
 })
 ```
@@ -45,7 +45,7 @@ Param        |Type                  | Description
 -------------|----------------------|---------------------------------------
 type*        |type                  |Type of the log
 component*   |component             |Component to which the log belongs
-code*        |string                |Error code of the log
+code*        |string                |HTML status Error code of the log
 description* |string                |Description of the error
 category*    |category              |Category of the log
 doc          |string                |Documentation link relevant to the log
@@ -89,7 +89,7 @@ ref          |object                |Reference object for app-level details
 ```js
     logger.log({
         category: logger.category.ConnectionError,
-        code: 'TEST.jiraProjectCode.ERROR',
+        code: logger.HttpStatus.ERROR,
         component: logger.component.ExternalServices,
         description: 'Unable to connect ETCD server',
         doc: 'https://confluence.bms.bz/display/BMS20/Configuration+management+system',
@@ -106,7 +106,7 @@ ref          |object                |Reference object for app-level details
 
 ```js
     // Update application name
-    logger.app = 'prod-ccms'
+    logger.app = 'SYIF'
     // Log stack trace
     logger.level = 2
 ```

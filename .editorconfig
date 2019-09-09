@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+# Indentation override for all JS under lib directory
+indent_style = space
+indent_size = 2
+# Set default charset
+charset = utf-8
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+# Remove any whitespace characters preceding newline characters
+trim_trailing_whitespace = true
+# Ensure file ends with a newline when saving
+insert_final_newline = true

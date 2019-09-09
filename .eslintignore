@@ -1,0 +1,7 @@
+node_modules/*
+test/*
+docs/*
+works.js
+#index.d.ts
+coverage/*
+__tests__

@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+  },
+  "globals": {},
+  "plugins": [],
+  "rules": {
+    "no-param-reassign": 0,
+    "no-tabs": 0,
+      "max-len": [
+          "warn",
+          140
+      ],
+      "camelcase": "warn",
+      "max-params": 0,
+      "no-var":"off",
+      "vars-on-top":"warn"
+  }
+}

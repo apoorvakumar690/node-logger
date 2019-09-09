@@ -1,0 +1,17 @@
+{
+	"name": "syi-nodelogger",
+	"description": "A logger for NodeJS",
+	"version": "1.0.4",
+	"scripts": {
+		"test": "./node_modules/.bin/jest --config ./jest.config.js"
+	},
+	"dependencies": {
+		"ip": "^1.1.5",
+		"path": "^0.12.7",
+		"stack-trace": "0.0.10"
+	},
+	"typings": "index.d.ts",
+	"devDependencies": {
+		"jest": "^23.2.0"
+	}
+}

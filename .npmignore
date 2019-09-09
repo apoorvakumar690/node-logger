@@ -1,0 +1,6 @@
+# .npmignore
+/__test__
+.idea
+*.md
+.eslintrc.json
+.eslintignore

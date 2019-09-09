@@ -92,7 +92,7 @@ ref          |object                |Reference object for app-level details
         code: logger.HttpStatus.ERROR,
         component: logger.component.ExternalServices,
         description: 'Unable to connect ETCD server',
-        doc: 'https://confluence.bms.bz/display/BMS20/Configuration+management+system',
+        doc: 'link to documentation link if any',
         ref: {
             app: {
                 version: '1.2.3'

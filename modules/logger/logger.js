@@ -152,7 +152,7 @@ class Logger {
         Object.keys(Type).map(k => Type[k])
       ).includes(rawParams.type) ? rawParams.type : requiredParams.type.default,
       code: (
-        Object.keys(Type).map(k => HttpStatus[k])
+        Object.keys(HttpStatus).map(k => HttpStatus[k])
       ).includes(rawParams.HttpStatus) ? rawParams.HttpStatus : requiredParams.type.default,
       ref: rawParams.ref,
       doc: rawParams.doc,

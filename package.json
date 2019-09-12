@@ -1,7 +1,8 @@
 {
 	"name": "syi-nodelogger",
 	"description": "A logger for NodeJS",
-	"version": "1.0.4",
+  "version": "1.0.4",
+  "author": "Apoorva Kumar",
 	"scripts": {
 		"test": "./node_modules/.bin/jest --config ./jest.config.js"
 	},

@@ -34,12 +34,15 @@ const Category = {
   ParseError: 'ParseError',
   ValidationError: 'ValidationError',
   UnknownError: 'UnknownError',
+  conflict: 'conclictError'
 };
 
 const HttpStatus = {
   "ERROR": 500,
   "REDIRECT": 307,
   "NOT-FOUND": 404,
+  "CONFLICT": 409,
+  "UNAUTHORIZED": 401,
   "BAD-REQUEST": 400,
   "METHOD-NOT-ALLOWED": 405,
   "TOO-MANY-REQUEST": 429,

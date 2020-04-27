@@ -1,4 +1,4 @@
-# Logging module for NodeJS projects ![Farmers Market Finder Demo](https://cultofthepartyparrot.com/parrots/hd/middleparrot.gif)
+# Logging module for NodeJS projects ![Farmers Market Finder Demo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/14216613/coffeeparrot.gif)
 
 ### Logger Class
 

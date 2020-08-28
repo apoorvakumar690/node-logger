@@ -8,9 +8,8 @@ const Log = require('../log/log.js');
 const Type = {
   Fatal: 'fatal',
   Warning: 'warning',
-  Errsev1: 'errsev1',
-  Errsev2: 'errsev2',
-  Errsev3: 'errsev3',
+  Error: 'error',
+  Critical: 'critical',
   Info: 'info',
   Debug: 'debug',
 };
